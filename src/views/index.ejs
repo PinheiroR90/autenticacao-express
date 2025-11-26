@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina inicial</title>
+</head>
+<body>
+    <h1>pagina inicial</h1>
+   <div>
+     <h2>Entrar</h2>
+    <form action="/auth/login" method="post">
+        <label for="username">nome</label><br>
+        <input type="text" name="username" id="username"><br>
+         <label for="password">senha</label><br>
+        <input type="password" name="password" id="password"><br>
+        <button type="submit">entrar</button>
+    </form>
+   </div><hr><hr>
+     <div>
+     <h2> Cadastrar usuario</h2>
+    <form action="/auth/register" method="post">
+        <label for="username">nome</label><br>
+        <input type="text" name="username" id="username"><br>
+         <label for="password">senha</label><br>
+        <input type="password" name="password" id="password"><br>
+        <button type="submit">cadastrar</button>
+    </form>
+   </div>
+</body>
+</html>
